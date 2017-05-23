@@ -5,6 +5,7 @@ A JavaScript environment built on V8, which is the same JavaScript engine that C
 
 Node uses an event-driven, non-blocking I/O model. 
 ![event-driven](https://www.tutorialspoint.com/nodejs/images/event_loop.jpg)
+
 This means as soon as we start the Node server it initiates its variables, declares functions and waits for an event to occur. The event loop listens for events then triggers a callback function when an event is detected.
 
 This tends to make performance with Node more attractive than other server-side languages like PHP and Ruby on Rails.
@@ -45,11 +46,6 @@ Installed with npm and nvm included
 
 `npm init`
 
-Run your brand new project
-`node index.js`
-check it by curling your localhost port 3000
-`curl localhost:3000`
-
 
 ### Using Express
 Express is a light-weight web application framework to help organize your web application into an MVC architecture on the server side.
@@ -77,3 +73,10 @@ app.listen(port, () => {
   console.log(`listening on port ${ port }`);
 });
 ```
+### Run You Program
+
+`node index.js`
+
+check it by curling your localhost port 3000
+`curl localhost:3000`
+
