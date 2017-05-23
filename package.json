@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/tzmanics/cincywwc_intro-to-node/issues"
   },
-  "homepage": "https://github.com/tzmanics/cincywwc_intro-to-node#readme"
+  "homepage": "https://github.com/tzmanics/cincywwc_intro-to-node#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }

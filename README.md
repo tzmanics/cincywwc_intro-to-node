@@ -24,20 +24,25 @@ NASA, Adobe, Google, Microsoft, Netflix, PayPal, Uber, Walmart and a ton more!
 
 ### How do you use Node with your front-end?
 [Scotch.io Universal React on Node](https://scotch.io/tutorials/react-on-the-server-for-beginners-build-a-universal-react-and-node-app)
+
 [Adrian Mejia Angular with Node](http://adrianmejia.com/blog/2014/09/28/angularjs-tutorial-for-beginners-with-nodejs-expressjs-and-mongodb/)
+
 [Connor Leech app with Vue and Node](https://medium.com/@connorleech/building-a-feature-complete-bookmarking-app-with-vue-js-express-and-sequelize-orm-b36506ebcb4c)
+
 [Dwayne Charrington Aurelia Starter Node Skeleton](https://ilikekillnerds.com/2016/02/aurelia-starter-node-skeleton/)
 
 ## Workshop/Demo
 
 ### Install Node 
-  Installed with npm and nvm included, 
+Installed with npm and nvm included
 
 [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 
 ### Create a Repo and a Project
-`mkdir <project name> && cd <project name>
+`mkdir <project name> && cd <project name>`
+
 `git init`
+
 `npm init`
 
 Run your brand new project
