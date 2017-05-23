@@ -1,0 +1,24 @@
+{
+  "name": "intro-to-node",
+  "version": "0.0.0",
+  "description": "An introduction to using Node.js for Cincy Women Who Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tzmanics/cincywwc_intro-to-node.git"
+  },
+  "keywords": [
+    "intro",
+    "node",
+    "wwc"
+  ],
+  "author": "Tara Z. Manicsic <tzmanics@gmail.com> (http://tzmanics.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tzmanics/cincywwc_intro-to-node/issues"
+  },
+  "homepage": "https://github.com/tzmanics/cincywwc_intro-to-node#readme"
+}
