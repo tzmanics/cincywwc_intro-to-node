@@ -56,3 +56,24 @@ Express is a light-weight web application framework to help organize your web ap
 
 `npm install express --save`
 
+### Create your `Index.js` File
+Create a file in the main directory names `index.js`
+
+`touch index.js`
+
+Then add these lines to the file:
+
+```js
+const express = require('express');
+
+const app = express();
+const port = process.env.PORT || 3000;
+
+app.get('/', (req, res) => {
+  res.send('Hello, world!');
+});
+
+app.listen(port, () => {
+  console.log(`listening on port ${ port }`);
+});
+```
